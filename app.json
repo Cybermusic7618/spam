@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Jatindalal875/Hellboyspam",
-  "website": "https://github.com/Jatindalal875/",
+  "repository": "https://github.com/BROTHERHOODOP/Hellboyspam",
+  "website": "https://github.com/BROTHERHOODOP",
   "success_url": "https://t.me/ITS_HELLL_BOYYY",
   "env": {
     "BOT_TOKEN1": {
@@ -38,27 +38,27 @@
       "required": false
 },
     "BOT_TTOKE6": {
-      "description": "Enter Your Bot Token 5. Get It From @BotFather!",
+      "description": "Enter Your Bot Token 6. Get It From @BotFather!",
       "value": "",
       "required": false
     },
     "BOT_TOKEN7": {
-      "description": "Enter Your Bot Token 5. Get It From @BotFather!",
+      "description": "Enter Your Bot Token 7. Get It From @BotFather!",
       "value": "",
       "required": false
 },
     "BOT_TOKEN8": {
-      "description": "Enter Your Bot Token 5. Get It From @BotFather!",
+      "description": "Enter Your Bot Token 8. Get It From @BotFather!",
       "value": "",
       "required": false
 },
     "BOT_TOKEN9": {
-      "description": "Enter Your Bot Token 5. Get It From @BotFather!",
+      "description": "Enter Your Bot Token 9. Get It From @BotFather!",
       "value": "",
       "required": false
 },
     "BOT_TOKEN10": {
-      "description": "Enter Your Bot Token 5. Get It From @BotFather!",
+      "description": "Enter Your Bot Token 10. Get It From @BotFather!",
       "value": "",
       "required": false
     },
