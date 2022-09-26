@@ -94,7 +94,7 @@ async def main():
     if BOT_TOKEN3:
         print("Working On Bot Token 3!")
         try:
-            Hellboy3 = TelegramClient("MafiaSpamBot3", api_id=API_ID, api_hash=API_HASH)
+            Hellboy3 = TelegramClient("HellboySpamBot3", api_id=API_ID, api_hash=API_HASH)
             print("Bot Token 3 OK!")
             await Hellboy3.start(bot_token=BOT_TOKEN3)
         except Exception as e:
