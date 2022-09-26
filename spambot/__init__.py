@@ -145,10 +145,10 @@ async def main():
         except Exception as e:
             pass
 
-    if BOT_TTOKE6:
+    if BOT_TOKEN6:
         print("Working On Bot Token 5!")
         try:
-            Hellboy5 = TelegramClient("HellboySpamBot6", api_id=API_ID, api_hash=API_HASH)
+            Hellboy6 = TelegramClient("HellboySpamBot6", api_id=API_ID, api_hash=API_HASH)
             print("Bot Token 6 OK!")
             await Hellboy6.start(bot_token=BOT_TOKEN6)
         except Exception as e:
@@ -232,7 +232,7 @@ async def main():
         print("Bot Token 10 Is'nt Available Or Invalid Bot Token")
         try:
             session_name = "HellboySpamBot10"
-            Hellboy101 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
+            Hellboy10 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
             await HHellboy0.start(bot_token=BOT_TOKEN10)
         except Exception as e:
             pass
