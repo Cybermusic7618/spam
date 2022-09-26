@@ -233,7 +233,7 @@ async def main():
         try:
             session_name = "HellboySpamBot10"
             Hellboy10 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
-            await HHellboy0.start(bot_token=BOT_TOKEN10)
+            await Hellboy10.start(bot_token=BOT_TOKEN10)
         except Exception as e:
             pass
           
