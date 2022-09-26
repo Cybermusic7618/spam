@@ -31,7 +31,7 @@ BACK = [
 @Hellboy5.on(events.NewMessage(incoming=True, pattern='/help'))
 @Hellboy6.on(events.NewMessage(incoming=True, pattern='/help'))
 @Hellboy7.on(events.NewMessage(incoming=True, pattern='/help'))
-@HHellbo8.on(events.NewMessage(incoming=True, pattern='/help'))
+@Hellboy8.on(events.NewMessage(incoming=True, pattern='/help'))
 @Hellboy9.on(events.NewMessage(incoming=True, pattern='/help'))
 @Hellboy10.on(events.NewMessage(incoming=True, pattern='/help'))
 async def help(e):
