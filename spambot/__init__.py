@@ -1,6 +1,6 @@
 import asyncio
 import logging
-from telethon import TelegramClientse
+from telethon import TelegramClient
 from spambot.config import Config
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
@@ -76,7 +76,7 @@ async def main():
     if BOT_TOKEN2:
         print("Working On Bot Token 2!")
         try:
-            Hellboy2 = TelegramClientse("HellboySpamBot2", api_id=API_ID, api_hash=API_HASH)
+            Hellboy2 = TelegramClient("HellboySpamBot2", api_id=API_ID, api_hash=API_HASH)
             print("Bot Token 2 OK!")
             await Hellboy2.start(bot_token=BOT_TOKEN2)
         except Exception as e:
