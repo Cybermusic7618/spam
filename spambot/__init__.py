@@ -1,6 +1,6 @@
 import asyncio
 import logging
-from telethon import TelegramClient
+from telethon import TelegramClientse
 from spambot.config import Config
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
