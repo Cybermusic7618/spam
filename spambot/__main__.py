@@ -34,58 +34,58 @@ import spambot.helpers.callbackQuery
 print("\n\nHellboy Spam Bot Deployed Successfully!\n\n")
 
 if len(argv) not in (1, 3, 4):
-    try:
+  try:
         Hellboy1.disconnect()
     except Exception as e:
         print(e)
         pass
-    try:
+  try:
         Hellboy2.disconnect()
     except Exception as e:
         print(e)
         pass
-    try:
+  try:
         Hellboy3.disconnect()
     except Exception as e:
         print(e)
         pass
-    try:
+  try:
         Hellboy4.disconnect()
     except Exception as e:
         print(e)
         pass
-    try:
+  try:
         Hellboy5.disconnect()
     except Exception as e:
         print(e)
         pass
-    try:
+  try:
         Hellboy6.disconnect()
     except Exception as e:
         print(e)
         pass
-    try:
+  try:
         Hellboy7.disconnect()
     except Exception as e:
        print(e)
        pass
-    try:
+  try:
         Hellboy8.disconnect()
     except Exception as e:
        print(e)
        pass
-    try:
+  try:
         Hellboy9.disconnect()
     except Exception as e:
        print(e)
        pass
-    try:
+  try:
         Hellboy10.disconnect()
     except Exception as e:
        print(e)
        pass
+  else:
     try:
-else
         Hellboy1.run_until_disconnected()
     except Exception as e:
         print(e)
