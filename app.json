@@ -37,7 +37,7 @@
       "value": "",
       "required": false
 },
-    "BOT_TTOKE6": {
+    "BOT_TOKEN6": {
       "description": "Enter Your Bot Token 6. Get It From @BotFather!",
       "value": "",
       "required": false
