@@ -146,7 +146,7 @@ async def main():
             pass
 
     if BOT_TOKEN6:
-        print("Working On Bot Token 5!")
+        print("Working On Bot Token 6!")
         try:
             Hellboy6 = TelegramClient("HellboySpamBot6", api_id=API_ID, api_hash=API_HASH)
             print("Bot Token 6 OK!")
@@ -165,8 +165,7 @@ async def main():
          
     if BOT_TOKEN7:
 
-        print("Bot Token 7 Is'nt Available Or Invalid Bot Token")
-
+        print("Working On Bot Token 7!")
         try:
             Hellboy7 = TelegramClient ("HellboySpamBot7", api_id=API_ID, api_hash=API_HASH)
             print("Bot Token 7 OK!")
