@@ -65,23 +65,23 @@ if len(argv) not in (1, 3, 4):
         print (e)
         pass
    try:
-        Hellboy7.discount()
+        Hellboy7.disconnect()
    except Exception as e:
        print(e)
        pass
      try:
 
-        Hellboy8.discount()
+        Hellboy8.disconnect()
    except Exception as e:
        print(e)
        pass
 try:
-        Hellboy9.discount()
+        Hellboy9.disconnect()
    except Exception as e:
        print(e)
        pass
 try:
-        Hellboy10.discount()
+        Hellboy10.()
    except Exception as e:
        print(e)
        pass
