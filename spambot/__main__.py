@@ -69,18 +69,18 @@ if len(argv) not in (1, 3, 4):
    except Exception as e:
        print(e)
        pass
-     try:
+   try:
 
         Hellboy8.disconnect()
    except Exception as e:
        print(e)
        pass
-try:
+   try:
         Hellboy9.disconnect()
    except Exception as e:
        print(e)
        pass
-try:
+   try:
         Hellboy10.()
    except Exception as e:
        print(e)
