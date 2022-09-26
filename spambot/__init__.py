@@ -168,7 +168,7 @@ async def main():
         print("Working On Bot Token 7!")
 
         try:
-            Hellboy7 = TelegramClient ("HellboySpamBo7", api_id=API_ID, api_hash=API_HASH)
+            Hellboy7 = TelegramClient ("HellboySpamBot7", api_id=API_ID, api_hash=API_HASH)
             print("Bot Token 7 OK!")
             await Hellboy7.start(bot_token=BOT_TOKEN7)
         except Exception as e:
@@ -204,8 +204,8 @@ async def main():
     if BOT_TOKEN9:
         print("Working On Bot Token 9!")
         try:
-            Hellboy9 = TelegramClient("HellboySpamBoy9", api_id=API_ID, api_hash=API_HASH)
-            print("Bot TokHAS9 OK!")
+            Hellboy9 = TelegramClient("HellboySpamBot9", api_id=API_ID, api_hash=API_HASH)
+            print("Bot Token9 OK!")
             await Hellboy9.start(bot_token=BOT_TOKEN9)
         except Exception as e:
             print(e)
