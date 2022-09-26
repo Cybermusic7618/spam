@@ -66,22 +66,22 @@ if len(argv) not in (1, 3, 4):
         pass
     try:
         Hellboy7.disconnect()
-   except Exception as e:
+    except Exception as e:
        print(e)
        pass
     try:
         Hellboy8.disconnect()
-   except Exception as e:
+    except Exception as e:
        print(e)
        pass
     try:
         Hellboy9.disconnect()
-   except Exception as e:
+    except Exception as e:
        print(e)
        pass
     try:
         Hellboy10.disconnect()
-   except Exception as e:
+    except Exception as e:
        print(e)
        pass
     try:
