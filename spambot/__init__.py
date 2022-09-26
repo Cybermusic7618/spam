@@ -20,11 +20,11 @@ BOT_TOKEN9 = Config.BOT_TOKEN9
 BOT_TOKEN10 = Config.BOT_TOKEN10
 OWNER_ID = Config.OWNER_ID
 OWNER_NAME = str(Config.OWNER_NAME) if Config.OWNER_NAME else "HellboySpamBot"
-OWNER_USERNAME = str(Config.OWNER_USERNAME) if Config.OWNER_USERNAME else "MafiaBot_Support"
+OWNER_USERNAME = str(Config.OWNER_USERNAME) if Config.OWNER_USERNAME else "Eagle_Mafia_Club"
 CO_OWNER_ID = Config.CO_OWNER_ID
 SUDO_USERS = Config.SUDO_USERS
 DISPLAY_PIC = str(Config.DISPLAY_PIC) if Config.DISPLAY_PIC else "https://te.legra.ph/file/5135ac513a382c35c3650.jpg"
-BIO_MSG = str(Config.BIO_MSG) if Config.BIO_MSG else "Mafia Spam Bot Ready To Fuck Haters!"
+BIO_MSG = str(Config.BIO_MSG) if Config.BIO_MSG else "Hellboy Spam Bot Ready To Fuck Haters!"
 
 
 BOT_VERSION = 1.0
@@ -155,17 +155,17 @@ async def main():
             print(e)
             pass
     else:
-        print("Bot Token 6 Is'nt Available Or Invalid Bot Token")
+        print("Working On Bot Token 6!")
         try:
             session_name = "HellboySpamBot6"
-            MafiaBot5 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
+            Hellboy6 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
             await Hellboy6.start(bot_token=BOT_TOKEN5)
         except Exception as e:
             pass
          
     if BOT_TOKEN7:
 
-        print("Working On Bot Token 7!")
+        print("Bot Token 7 Is'nt Available Or Invalid Bot Token")
 
         try:
             Hellboy7 = TelegramClient ("HellboySpamBot7", api_id=API_ID, api_hash=API_HASH)
