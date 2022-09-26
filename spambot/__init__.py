@@ -155,7 +155,7 @@ async def main():
             print(e)
             pass
     else:
-        print("Working On Bot Token 6!")
+        print("Bot Token 5 Is'nt Available Or Invalid Bot Token")
         try:
             session_name = "HellboySpamBot6"
             Hellboy6 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH)
