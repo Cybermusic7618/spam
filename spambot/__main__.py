@@ -64,7 +64,7 @@ if len(argv) not in (1, 3, 4):
     except Exception as e:
         print (e)
         pass
-   try:
+    try:
         Hellboy7.disconnect()
    except Exception as e:
        print(e)
@@ -111,27 +111,27 @@ else:
     except Exception as e:
         print(e)
         pass
-      try:
+    try:
         Hellboy6.run_until_disconnected()
     except Exception as e:
         print(e)
         pass
-      try:
+    try:
         Hellboy7.run_until_disconnected()
     except Exception as e:
         print(e)
         pass
-try:
+    try:
         HHellbo8.run_until_disconnected()
     except Exception as e:
         print(e)
         pass
-try:
+    try:
         Hellboy9.run_until_disconnected()
     except Exception as e:
         print(e)
         pass
-try:
+    try:
         Hellboy10.run_until_disconnected()
     except Exception as e:
         print(e)
