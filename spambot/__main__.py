@@ -15,7 +15,7 @@ def load_plugs(plugname):
     load.logger = logging.getLogger(plugname)
     spec.loader.exec_module(load)
     sys.modules["spambot.plugins." + plugname] = load
-    print("MafiaSpamBot - Successfully Imported " + plugname)
+    print("HellboySpamBot - Successfully Imported " + plugname)
 
 if __name__ == "__main__":
     modules = "spambot/plugins/*.py"
@@ -69,23 +69,23 @@ if len(argv) not in (1, 3, 4):
    except Exception as e:
        print(e)
        pass
-   try:
-       Hellboy8.disconnect()
-   except Exception as e:
-       print(e)
-       pass
-   try:
-       Hellboy9.disconnect()
-   except Exception as e:
-       print(e)
-       pass
-   try:
-       Hellboy10.disconnect()
-   except Exception as e:
-       print(e)
-       pass
-else:
     try:
+        Hellboy8.disconnect()
+   except Exception as e:
+       print(e)
+       pass
+    try:
+        Hellboy9.disconnect()
+   except Exception as e:
+       print(e)
+       pass
+    try:
+        Hellboy10.disconnect()
+   except Exception as e:
+       print(e)
+       pass
+    try:
+else
         Hellboy1.run_until_disconnected()
     except Exception as e:
         print(e)
