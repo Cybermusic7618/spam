@@ -17,7 +17,7 @@ def load_plugs(plugname):
     sys.modules["spambot.plugins." + plugname] = load
     print("HellboySpamBot - Successfully Imported " + plugname)
 
-if name == "main":
+if __name__ == "__main__":
     modules = "spambot/plugins/*.py"
     plugins = glob.glob(modules)
     for myfiles in plugins:
