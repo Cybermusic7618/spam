@@ -17,7 +17,7 @@ def load_plugs(plugname):
     sys.modules["spambot.plugins." + plugname] = load
     print("HellboySpamBot - Successfully Imported " + plugname)
 
-if __name__ == "__main__":
+if name == "main":
     modules = "spambot/plugins/*.py"
     plugins = glob.glob(modules)
     for myfiles in plugins:
@@ -84,7 +84,7 @@ if len(argv) not in (1, 3, 4):
     except Exception as e:
        print(e)
        pass
-  else:
+  
     try:
         Hellboy1.run_until_disconnected()
     except Exception as e:
