@@ -14,7 +14,7 @@ enemy = []
 @Hellboy6.on(events.NewMessage(incoming=True, pattern='/replyraid'))
 @Hellboy7.on(events.NewMessage(incoming=True, pattern='/replyraid'))
 @Hellboy8.on(events.NewMessage(incoming=True, pattern='/replyraid'))
-@Hellboy9.on(events.NewMessage(incoming=True, pattern='/replyraid')
+@Hellboy9.on(events.NewMessage(incoming=True, pattern='/replyraid'))
 @Hellboy10.on(events.NewMessage(incoming=True, pattern='/replyraid'))
 async def replyraid(e):
     if e.sender_id in MY_USERS:
